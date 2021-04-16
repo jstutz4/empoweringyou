@@ -33,8 +33,8 @@ export default {
         {
           title: 'Block',
           type: 'block',
-          styles: [{title: 'Normal', value: 'normal'}],
-          lists: [],
+          styles: [{title: 'Normal', value: 'normal'}, {title: 'Quote', value: 'blockquote'}],
+          lists: [{title: "Bullet", value: 'bullet'}, {title:"Number", value: 'number'}],
         },
       ],
     },
