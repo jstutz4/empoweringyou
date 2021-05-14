@@ -71,6 +71,7 @@ export default {
                     ]
                   }
               },
+              {type: 'image', icon: 'myIcon'}
             ],
         },
 

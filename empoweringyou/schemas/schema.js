@@ -15,6 +15,9 @@ import author from './author'
 import media from './media'
 import template from './template'
 import roadmap from './roadmap'
+import comment from './comment'
+import topic from './topic'
+import forum from './forum'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -31,6 +34,9 @@ export default createSchema({
     media,
     template,
     roadmap,
+    comment,
+    topic,
+    forum,
 
     // When added to this list, object types can be used as
     // { type: 'typename' } in other document schemas
